@@ -1,0 +1,178 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --border-color: #dbdbdb;
+}
+
+body {
+    text-align: center;
+    background-color: #a9d7e9;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    width: 850px;
+    height: 100%;
+    background-color: white;
+    margin: 10px 0 10px 0;
+    display: flex;
+    position: relative;
+}
+
+.white {
+    color: #fff !important;
+}
+
+.left-text {
+    text-align: left;
+}
+
+
+/* INFOR */
+
+.left {
+    width: 380px;
+    height: 1000px;
+    background-color: #1d223c;
+    color: white;
+    padding: 45px 0px 20px 0px;
+}
+
+.user-img {
+    width: 190px;
+    border: 2px solid #6c46df;
+    border-radius: 70px;
+}
+
+.name {
+    margin-top: 15px;
+    font-size: 28px;
+    font-weight: 550;
+}
+
+.information {
+    margin: 25px 0 0 15px;
+}
+
+.infor-icon {
+    display: flex;
+    margin: 10px 10px 10px 5px;
+    font-size: 18px;
+}
+
+.infor-icon-space {
+    justify-content: space-between;
+    padding-right: 25px;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+
+/* TIEUDE */
+
+.tieude {
+    background-image: linear-gradient(0, #05d4eb, #0230fc);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 42px;
+    width: calc(100% - 80px);
+    margin: 40px 0 35px 45px;
+    font-size: 20px;
+    font-weight: 550;
+    border-radius: 50px;
+}
+
+.tieude-name {
+    margin-right: 10px;
+    margin-left: 18px;
+}
+
+.list {
+    padding: 0;
+}
+
+.list-item {
+    /* display: flex; */
+    list-style-type: none;
+    margin: 5px 20px 5px 20px;
+    font-size: 18px;
+    text-align: left;
+}
+
+
+/* RIGHT */
+
+.right {
+    width: 100%;
+}
+
+.tieudecv {
+    height: 42px;
+    font-size: 22px;
+    margin-top: 82px;
+    margin-bottom: 65px;
+}
+
+.tieude-infor {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.tieude-icon {
+    left: -28px;
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    top: -20px;
+    border-radius: 100px;
+    background-image: linear-gradient(0, #04e6ff, #0733fa);
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-inhoa {
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.list-detail {
+    font-size: 18px;
+    text-align: left;
+    margin: 0 20px 0 50px;
+    list-style-type: none;
+}
+
+
+/* Ceator */
+
+#creator {
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: end;
+}
+
+.name-creator {
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
+    font-size: 17px;
+}
+
+.name-creator:hover {
+    opacity: 0.5;
+}
